@@ -1,0 +1,10 @@
+[project]
+name = "search-infotable"
+version = "0.1.0"
+description = "Fetch SRA run metadata (BioProject, bases, size, release date) from NCBI E-utilities."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+]
